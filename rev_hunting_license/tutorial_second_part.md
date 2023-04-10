@@ -1,6 +1,6 @@
 The flag itself isn't hidden in the license file, instead it was accesible only after solving questions about the given executable. The server hosting this questionnaire was available only during the CTF.
 
-The first three questions were easy to answer by simple file checks.
+The first three questions were easy enough to be answered by simple file checks.
 
 ```
 What is the file format of the executable?
