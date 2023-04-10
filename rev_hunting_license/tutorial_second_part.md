@@ -52,7 +52,7 @@ What is the third password?
 
 ```
 All three passwords can be found with ltrace easily. It seems the third password has undergone a XOR encryption, and we need to find the XOR key, which
-ltrace didn't provide us with. For that question to be answered we need to head back to gdb (or your preffered decompiler/debugger).
+ltrace didn't provide us with. For that question to be answered we need to head back to gdb (or your preferred decompiler/debugger).
 
 ```
 gdb ./license
