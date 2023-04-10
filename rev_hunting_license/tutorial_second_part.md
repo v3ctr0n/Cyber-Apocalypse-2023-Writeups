@@ -44,6 +44,7 @@ What is the real second password?
 
 What is the XOR key used to encode the third password?
 > 0x13
+[+] Correct!
 
 What is the third password?
 > ThirdAndFinal!!!
