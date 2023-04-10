@@ -56,7 +56,7 @@ ltrace didn't provide us with. For that question to be answered we need to head 
 ```
 gdb ./license
 ```
-To extract a xor key we need to set a breakpoint at the instruction where the key is used to perform the XOR operation. After that, we need to examine
+To extract the xor key we need to set a breakpoint at the instruction where the key is used to perform the XOR operation. After that, we need to examine
 the values of the registers or memory locations that hold the key.
 
 ```
