@@ -14,7 +14,7 @@ for GNU/Linux 3.2.0, not stripped
 After running the file by ./license we are asked for three passwords, which we can find by simple RE analysis...now let me put this bluntly...ltrace is your friend.
 All three passwords can be found by using ltrace, but it is possible to also use the command 'strings' for the first two.
 
-After running strings or ltrace we find out the first password: _PasswordNumeroUno_. The second password is also accesible in plaintext by running strings in this form: _0wTdr0wss4P_, which as the file itself is telling us is actually backwards.
+After running strings or ltrace we find out the first password: _PasswordNumeroUno_. The second password is also accesible in plaintext by running strings in this form: _0wTdr0wss4P_, which as the file itself is telling us, is actually backwards.
 Now you can reverse it by simple python script or just by looking at it, it's fairly easy, or you can run ltrace, which will already give you the right password after 
 putting in the first password succesfully.
 
