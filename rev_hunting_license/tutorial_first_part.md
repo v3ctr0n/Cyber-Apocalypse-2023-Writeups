@@ -1,5 +1,5 @@
 As in many other RE challenges, we are given an executable to analyze, which in this case is tied to a server application.
-Key to solving this challenge was to analyze the given file _licence_.
+Key to solving this challenge was to analyze the given file _license_.
 
 The first step is always gonna be a file check.
 ```
